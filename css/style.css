@@ -1,0 +1,49 @@
+body {
+    background-color: darkslategray;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.box {
+    height: 100px;
+    min-width: 100px;
+    line-height: 100px;
+    margin: 1rem 1rem;
+    border: 1px solid black;
+}
+
+/* Multiplo 3 e 5 */
+.box.fizzbuzz {
+    background-color: rgb(179, 49, 49);
+    color: black;
+}
+
+/* Multiplo 3 */
+.box.fizz {
+    background-color: rgb(45, 172, 85);
+    color: black;
+}
+
+/* Multiplo 5 */
+.box.buzz {
+    background-color: rgb(170, 165, 38);
+    color: black;
+}
+
+/* Progressione numeri */
+.box.number {
+    background-color: rgb(31, 117, 178);
+    color: black;
+}
